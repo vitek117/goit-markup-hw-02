@@ -1,5 +1,38 @@
+/* цвет фота #E5E5E5 */
+/* цвет нижней секции #F5F4FA */
+/* цвет футтера и хедера #2F303A */
+/* основного цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет акцента #2196F3 */
+/* белый цвет текста  #ffffff */
 
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+}
 
-body{
-  
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--accent-color);
+}
+ul {
+  list-style: none;
+}
+.Feedback {
+  color: var(--accent-color);
+}
+.site-naw .link:hover,
+.site-naw .link:focus {
+  color: var(--accent-color);
+}
+.site-naw .link:current {
+  color: var(--primary-text-color);
+}
+.button {
+    color: var(--primary-text-color);
+    
 }
