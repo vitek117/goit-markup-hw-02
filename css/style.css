@@ -40,13 +40,18 @@ ul {
   list-style: none;
 }
 .Feedback {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.Feedback:focus,
+.Feedback:hover{
+  color: var(--accent-color);
+}
+
 .site-naw .link:hover,
 .site-naw .link:focus {
   color: var(--accent-color);
@@ -64,8 +69,12 @@ ul {
   letter-spacing: 0.06em;
 }
 
-.button {
+button {
   color: var(--primary-text-color);
+}
+button:hover,
+button:focus{
+color: var(--accent-color);
 }
 
 /* section */
