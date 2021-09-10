@@ -143,6 +143,7 @@ ul {
   line-height: 1.7;
   text-decoration: none;
   font-weight: normal;
+  font-style: normal;
 }
 .footer-connection {
   font-size: 14px;
@@ -150,6 +151,7 @@ ul {
   color: tomato;
   text-decoration: none;
   font-weight: normal;
+  font-style: normal;
 }
 
 /* portfolio */
