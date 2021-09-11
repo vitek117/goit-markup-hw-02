@@ -74,6 +74,7 @@ ul {
   text-transform: uppercase;
 }
 
+/* button portfolio */
 .filter-butt {
   color: var(--dark-text-color);
   font-size: 16px;
@@ -81,6 +82,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .filter-butt:hover,
@@ -88,7 +90,7 @@ ul {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-
+/* button */
 .hero-but {
   font-size: 16px;
   line-height: 1.87;
@@ -110,7 +112,7 @@ ul {
 .section-advantage {
   color: var(--dark-text-color);
   font-size: 14px;
-  line-height: 1.4px;
+  line-height: 1.4;
   text-transform: uppercase;
 }
 .section-text {
