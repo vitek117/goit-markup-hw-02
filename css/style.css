@@ -1,16 +1,18 @@
 /* цвет фота #E5E5E5 */
 /* цвет нижней секции #F5F4FA */
-/* цвет футтера и героя #2F303A */
+/* цвет фрна футтера и героя #2F303A */
 /* основного dark цвет текста #212121 */
 /* вторичный цвет текста #757575 */
 /* цвет акцента #2196F3 */
 /* белый цвет текста  #ffffff */
+/* цвет текска футтер контент rgba(255, 255, 255, 0.6) */
 
 :root {
   --dark-text-color: #212121;
   --accent-color: #2196f3;
   --primary-text-color: #757575;
   --white-color: #ffffff;
+  --footer-connection-text-color rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -65,7 +67,8 @@ ul {
 }
 
 .hero-title {
-  color: tomato;
+  background-color: #2F303A;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -79,9 +82,8 @@ ul {
   color: var(--dark-text-color);
   font-size: 16px;
   line-height: 1.6;
-  text-align: center;
   letter-spacing: 0.03em;
-  border-radius: 6px;
+  border-radius: 5px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
@@ -95,9 +97,8 @@ ul {
 .hero-but {
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
-  border-radius: 6px;
+  border-radius: 5px;
 
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -143,7 +144,8 @@ ul {
   text-align: center;
 }
 .footer-addres {
-  color: tomato;
+  background-color: #2F303A;
+  color: var(--white-color);
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
@@ -151,9 +153,10 @@ ul {
   font-style: normal;
 }
 .footer-connection {
+  background-color: #2F303A;
+  color: var(--footer-connection-text-color);
   font-size: 14px;
   line-height: 1.7;
-  color: tomato;
   text-decoration: none;
   font-weight: normal;
   font-style: normal;
